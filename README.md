@@ -29,8 +29,9 @@ CucumberBDDProject
 │       └── login.feature
 │
 └── pom.xml
+```
 
-Test Scenario:
+## Test Scenario:
 Successful Login
 
 Given: User is on the login page
@@ -39,7 +40,7 @@ When: User enters valid username and password
 
 Then: User should be logged in successfully
 
-BDD Workflow
+## BDD Workflow
 Feature File
      ↓
 Step Definitions
@@ -48,17 +49,17 @@ Cucumber Test Runner
      ↓
 JUnit 5
      ↓
-Test Execution
-Test Result
+## Test Execution
+## Test Result
 
 The login scenario was executed successfully with all 3 steps passed.
 
-Learning Outcomes
+## Learning Outcomes
 Understanding BDD concepts
 Writing Cucumber feature files
 Creating step definitions
 Running Cucumber tests with JUnit 5
 Using Maven for dependency management
-Author
 
+## Author
 Selvapriya
